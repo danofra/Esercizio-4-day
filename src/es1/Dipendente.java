@@ -1,6 +1,6 @@
 package es1;
 
-public abstract class Dipendente {
+public abstract class Dipendente implements CheckIn {
     private int matricola;
     private double salario;
     private Dipartimento dipartimento;
@@ -36,4 +36,10 @@ public abstract class Dipendente {
                 "}";
     }
 
+    @Override
+    public void CheckIn() {
+        System.out.println("Il dipendente " + this.matricola + " inizia il suo turno di lavoro alle 9:00");
+        ;
+        System.out.println("Il dipendente " + this.matricola + " termina il suo turno di lavoro alle 18:00 ");
+    }
 }
