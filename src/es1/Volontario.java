@@ -12,7 +12,7 @@ public class Volontario implements CheckIn {
     }
 
     @Override
-    public void CheckIn() {
+    public void checkIn() {
         System.out.println("Il volontario " + this.name + " inizia il suo turno di lavoro alle 9:00");
         ;
         System.out.println("Il volontario " + this.name + " termina il suo turno di lavoro alle 18:00 ");

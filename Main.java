@@ -27,7 +27,7 @@ public class Main {
 
         CheckIn[] dipendenti = { d1, d2, d3, v1, v2, v3 };
         for (CheckIn dip : dipendenti) {
-            dip.CheckIn();
+            dip.checkIn();
         }
 
     }

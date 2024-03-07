@@ -37,7 +37,7 @@ public abstract class Dipendente implements CheckIn {
     }
 
     @Override
-    public void CheckIn() {
+    public void checkIn() {
         System.out.println("Il dipendente " + this.matricola + " inizia il suo turno di lavoro alle 9:00");
         ;
         System.out.println("Il dipendente " + this.matricola + " termina il suo turno di lavoro alle 18:00 ");
